@@ -22,13 +22,13 @@ class Employee:
         return self.no
     
     def __repr__(self):
-        return self.full_name
+        return Employee.full_name(self)
 
 e1 = Employee("Aakash", "Varma", "Male", 1000)
 e2 = Employee("Manmeet", "Tarun", "Trans", 1000)
 
 # print (e1.no)
-print (repr(e1))
+print (e1.__repr__())
 
 
 
