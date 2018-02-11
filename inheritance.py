@@ -3,11 +3,13 @@ class Father():
         print("I love coding")
 
 class Mother():
-    def cooking(self):
+    def skills(self):
         print("I like cooking")
 
 class Child(Father, Mother):
-    pass
+    def skills(self):
+        Mother.skills(self)
+        print("I love football ")
 
 c = Child()
-c.cooking()
+c.skills()
