@@ -8,24 +8,29 @@ int max(int a, int b){
 	else{
 		return b;
 	}
-};
-int input(){
-	int num1, num2;
+}
+int input1(){
+	int num1;
 	cout<<"Enter 1st number: ";
 	cin>>num1;
-	cout<<"Enter 2nd number: ";
-	cin>>num2;
-};
+	return num1;
+}
+
+int input2(){
+	int num1;
+	cout<<"Enter 1st number: ";
+	cin>>num1;
+	return num1;
+}
+
+
 int display(int c){
 	cout<<"The maximum of the two inputed numbers is: "<<c;
-};
+}
 int main(){
 	int n1, n2;
-	input();
-//	cout<<"Enter 1st number: ";
-//	cin>>n1;
-//	cout<<"Enter 2nd number: ";
-//	cin>>n2;
+	n1=input1();
+	n2=input2();
 	int ret = max(n1, n2);
 	display(ret);
 }
