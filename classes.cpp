@@ -5,6 +5,7 @@ using namespace std;
 class Book{
 	public:
 		string name;
+	public:
 		string input();
 };
 
