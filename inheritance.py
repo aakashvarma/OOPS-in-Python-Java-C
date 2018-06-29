@@ -1,6 +1,6 @@
 class Father():
     def __init__(self):
-        print("I love coding")
+        print("I like coding")
 
 class Mother():
     def skills(self):
@@ -9,7 +9,7 @@ class Mother():
 class Child(Father, Mother):
     def skills(self):
         Mother.skills(self)
-        print("I love football ")
+        print("I like football ")
 
 c = Child()
 c.skills()
