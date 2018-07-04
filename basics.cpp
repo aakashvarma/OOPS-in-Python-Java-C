@@ -8,4 +8,5 @@ int main(){
 	int *n_pointer;
 	n_pointer = &n;
 	cout << n_pointer <<endl;
+	
 } 
