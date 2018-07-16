@@ -4,6 +4,8 @@
 
 int main(){
 	
-	printf ("the size of int is %d", sizeof(int));
+	int a[] = {1, 2, 3 , 5, 8, 9};
+	printf ("the size of int is %d", sizeof(a)/sizeof(a[0]));
+	return 0;
 	
 }
